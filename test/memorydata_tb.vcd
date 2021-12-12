@@ -1,0 +1,190 @@
+$date
+	Sun Dec 12 11:32:38 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module memorydata_tb $end
+$var wire 16 ! Data_out [15:0] $end
+$var reg 16 " RegVal [15:0] $end
+$var reg 1 # Rm $end
+$var reg 1 $ Wm $end
+$var reg 16 % address [15:0] $end
+$scope module md $end
+$var wire 16 & RegVal [15:0] $end
+$var wire 1 # Rm $end
+$var wire 1 $ Wm $end
+$var wire 16 ' address [15:0] $end
+$var wire 1 ( clock $end
+$var reg 16 ) Data_out [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx )
+z(
+bx '
+bx &
+bx %
+x$
+x#
+bx "
+bx !
+$end
+#5
+0#
+1$
+b1111 "
+b1111 &
+b0 %
+b0 '
+#10
+b1110 "
+b1110 &
+b1 %
+b1 '
+#15
+b1101 "
+b1101 &
+b10 %
+b10 '
+#20
+b1100 "
+b1100 &
+b11 %
+b11 '
+#25
+b1011 "
+b1011 &
+b100 %
+b100 '
+#30
+b1010 "
+b1010 &
+b10001 %
+b10001 '
+#35
+b1001 "
+b1001 &
+b110 %
+b110 '
+#40
+b1000 "
+b1000 &
+b111 %
+b111 '
+#45
+b111 "
+b111 &
+b1000 %
+b1000 '
+#50
+b110 "
+b110 &
+b1001 %
+b1001 '
+#55
+b101 "
+b101 &
+b1010 %
+b1010 '
+#60
+b100 "
+b100 &
+b1011 %
+b1011 '
+#65
+b11 "
+b11 &
+b1100 %
+b1100 '
+#70
+b10 "
+b10 &
+b1101 %
+b1101 '
+#75
+b1 "
+b1 &
+b1110 %
+b1110 '
+#80
+b0 "
+b0 &
+b1111 %
+b1111 '
+#85
+1#
+0$
+b0 %
+b0 '
+#90
+b1 %
+b1 '
+#95
+b10 %
+b10 '
+#100
+b11 %
+b11 '
+#105
+b100 %
+b100 '
+#110
+b101 %
+b101 '
+#115
+b110 %
+b110 '
+#120
+b111 %
+b111 '
+#125
+b1000 %
+b1000 '
+#130
+b1001 %
+b1001 '
+#135
+b1010 %
+b1010 '
+#140
+b1011 %
+b1011 '
+#145
+b1100 %
+b1100 '
+#150
+b1101 %
+b1101 '
+#155
+b1110 %
+b1110 '
+#160
+b10001 %
+b10001 '
+#165
+b1111 %
+b1111 '
+#170
+0#
+1$
+b100101 "
+b100101 &
+b100011 %
+b100011 '
+#175
+1#
+0$
+#180
+b100101 %
+b100101 '
+#185
+0#
+b0 %
+b0 '
+#195
