@@ -24,19 +24,6 @@
          $display("Testes com resultados em decimal");
          $monitor("In1 = %d, In2 = %d, OpCode = %d, Out = %d, zero = %b", entrada1, entrada2, sinal_ula, saida_ula, zero);
 
-         // AND
-         entrada1 = 16'b0000000000000110;
-         entrada2 = 16'b0000000000000011;
-         sinal_ula = 3'b000;
-         #20;
-         
-         // OR
-        
-         entrada1 = 16'b0000000000000100;
-         entrada2 = 16'b0000000000001011;
-         sinal_ula = 3'b001;
-         #20;
-
          //ADD
          entrada1 = 16'b0000000000000110;
          entrada2 = 16'b0000000000011111;
@@ -71,6 +58,25 @@
          entrada1 = 16'b0000000000000101;
          entrada2 = 16'b0000000000000100;
          sinal_ula = 3'b100;
+         #20;
+
+        $display("----------------------------------------------");
+
+         $display("Testes AND e OR com Input e Out em binario");
+
+         $monitor("In1 = %b, In2 = %b, OpCode = %d, Out = %b, zero = %b", entrada1, entrada2, sinal_ula, saida_ula, zero);
+
+        // AND
+         entrada1 = 16'b0000000000000110;
+         entrada2 = 16'b0000000000000011;
+         sinal_ula = 3'b000;
+         #20;
+         
+         // OR
+        
+         entrada1 = 16'b0000000000000100;
+         entrada2 = 16'b0000000000001011;
+         sinal_ula = 3'b001;
          #20;
         
      end
