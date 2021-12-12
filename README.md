@@ -5,7 +5,7 @@
 Este projeto foi criado utilizando a linguagem de descrição de Hardware Verilog.
 
 
-Para a melhor organização e manutenabilidade, esse projeto foi criado dividido em 2 partes.
+Para a melhor organização e manutenibilidade, esse projeto foi criado dividido em 2 partes.
 
 📁 processador <br> <br> Inclui todas as etapas do processamento de instruções MIPS. Foram adicionadas a detecção de Hazard e a unidade de adiantamento via multiplexador. Nessa parte é possível encontrar todas as funcionalidades e operações requeridas no roteiro de trabalho.
 
